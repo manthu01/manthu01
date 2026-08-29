@@ -99,8 +99,8 @@ fun_fact: I debug best at 2 AM ☕
 
 | Platform | Handle | Notes Repo |
 |:--|:--|:--|
-| LeetCode | [`Manthu01`](https://leetcode.com/u/Manthu01/) | [dsa-notes](https://github.com/manthu01) |
-| Codeforces | [`manthu01`](https://codeforces.com/profile/manthu01) | [cp-solutions](https://github.com/manthu01) |
+| LeetCode | [`Manthu01`](https://leetcode.com/u/Manthu01/) | [Leetcode-Solutions](https://github.com/manthu01/Leetcode-Solutions) |
+| Codeforces | [`manthu01`](https://codeforces.com/profile/manthu01) | — |
 | CodeChef | [`manthu01`](https://www.codechef.com/users/manthu01) | — |
 
 > 💡 A public repo of your solved problems is one of the strongest signals on a student profile. Pin it.
