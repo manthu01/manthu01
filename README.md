@@ -32,6 +32,20 @@ B.Tech CSE @ **SVNIT Surat** · Software engineer building backend systems, LLM 
 - A Splitwise-style platform with server-side integer-cent splits. Greedy debt simplification settles any group in at most n−1 transfers, and a webhook-driven Telegram bot logs expenses from chat messages.
 - bcrypt and Google OAuth auth with short-lived JWTs and rotated httpOnly refresh cookies. A 1+2N request fan-out became a 3-query summary endpoint. The API is hardened with rate limiting, Helmet, shared Zod schemas and CI.
 
+### [LectureLens](https://github.com/manthu01/LectureLens): Ctrl+F for your entire semester of lectures · [Live ↗](https://lecturelens-app.vercel.app)
+`Python` `FastAPI` `Whisper` `Gemini` `Qdrant` `BM25` `Cross-encoder` `Next.js` `SSE`
+
+- A RAG system over lecture videos. Whisper transcribes YouTube playlists with timestamps (Hindi/Hinglish translated to English), an LLM labels each segment, and answers cite the exact second the lecturer explained it.
+- Hybrid dense + BM25 retrieval fused with RRF reaches **Recall@1 0.96 and MRR 0.98** on a held-out eval set. A confidence gate refuses questions the lectures don't cover instead of guessing.
+
+### More projects
+
+| Project | What it is | Stack |
+|:--|:--|:--|
+| [**CreditFlow**](https://github.com/manthu01/Loan-Origination-Decisioning-System) | Loan origination & credit decisioning: versioned policy rules, a WOE scorecard (AUC 0.71, KS 0.31), reason codes, a hash-chained audit log with replay and a what-if policy simulator | NestJS · FastAPI · Next.js · PostgreSQL · XGBoost |
+| [**Gigapixel WSI Viewer**](https://github.com/manthu01/gigapixel-wsi-viewer) | Streams 8-gigapixel pathology slides into the browser: a Deep Zoom tile pyramid, an nginx-accelerated tile API and a custom 60 fps canvas viewer with annotations | Django · Celery · Redis · React · nginx |
+| [**FlowSync**](https://github.com/manthu01/flowsync-productivity-suite) · [Live ↗](https://flowsync-productivity-suite.vercel.app) | Collaborative task manager with real-time shared tasks, recurring tasks, analytics and an audited admin panel | React · Express · Socket.io · PostgreSQL |
+
 ---
 
 ## 🧰 Tech Stack
